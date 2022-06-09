@@ -3,7 +3,7 @@
 
   include("conexion.php");
 
-  $sql="UPDATE DATOS_CURSOS SET Nombre=:nom, Descripción=:des, Horas=:hor, FechaInicio=:fecini, FechaFin=:fecfin WHERE Id=:";
+  $sql="UPDATE DATOS_CURSOS SET Nombre=:nom, Descripción=:des, Horas=:hor, FechaInicio=:fecini, FechaFin=:fecfin WHERE Id=:id";
 
   $resultado=$base->prepare($sql);
 
